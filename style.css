@@ -9,18 +9,30 @@ body {
 
 h1 {
 	font-family: "depot-new-web", sans-serif;
-	color: #7FC7AF;
+	color: #83eab3;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 45px;
 	text-align: left;
 	position: fixed;
-	width: 50%;
+	width: 60%;
 }
 
  #presentation {
 	margin-top: 120px;
-	height: 220px;
+	height: 250px;
 
+}
+
+#description {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+p {
+	font-weight: 100;
+	font-size: 35px;
+	text-align: left;
+	color: #8585ad;
 }
 
 h2 {
@@ -38,7 +50,7 @@ ul {
 .skills-container {
 
 	padding-top: 10px;
-	background-color: #b8c3d2;
+	background-color: #b2f2ef;
 	color: #ffffff;
 
 }
