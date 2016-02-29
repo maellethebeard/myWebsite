@@ -6,14 +6,60 @@ body {
 	font-weight: 100;
 }
 
-h1 {
+header {
+	background: white;
+	padding-bottom: 50px;
+}
+
+h1, h2, h3 {
 	font-family: "depot-new-web", sans-serif;
-	color: #50938f;
+}
+
+h1 {
+	color: #83eab3;
 	font-weight: 400;
 	font-size: 45px;
 	text-align: center;
 	position: fixed;
-	width: 60%;
+	margin-right: 15px;
+}
+
+h2 {
+	margin-top: 100px;
+	padding-bottom: 30px;
+	color: #83eab3;
+	font-size: 45px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 20px;
+	color: #83eab3;
+}
+
+h4 {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+h5 {
+	font-size: 60px;
+	font-weight: 400;
+  	color: #a5afbd;
+
+}
+
+p {
+	font-weight: 100;
+	font-size: 30px;
+	text-align: center;
+	color: #5c5c5c;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: #83eab3;
 }
 
  #presentation {
@@ -28,27 +74,8 @@ h1 {
     padding-bottom: 50px;
 }
 
-#aboutMe {
-	font-family: "source-sans-pro";
-}
-
 .about-me-para {
 	margin-bottom: 100px;
-}
-
-p {
-	font-weight: 100;
-	font-size: 30px;
-	text-align: center;
-	color: #5c5c5c;
-}
-
-h2 {
-	border-bottom: 1px solid #a5afbd;
-	padding-bottom: 60px;
-	margin-bottom: 100px;
-	margin-top: 100px;
-
 }
 
 .titles {
@@ -68,11 +95,6 @@ h2 {
 }
 
 .parallax-window {
-	margin-top: 60px;
-	height: 400px;
-}
-
-.parallax-window-2 {
 	height: 400px;
 }
 
@@ -101,11 +123,6 @@ h2 {
 	height: 300px;
 }
 
-h4 {
-	font-size: 25px;
-	line-height: 30px;
-}
-
 .service-paragraph {
 	font-size: 20px;
 	text-align: center;
@@ -126,13 +143,6 @@ h4 {
 	line-height: 50px;
 }
 
-h3 {
-	font-weight: bold;
-	font-size: 35px;
-	line-height: 20px;
-	color: #83eab3;
-	font-family: "depot-new-web", sans-serif;
-}
 
 .contact {
 	text-align: left;
@@ -237,13 +247,6 @@ h3 {
   color: #a5afbd;
 }
 
-h5 {
-	font-size: 60px;
-	font-weight: 400;
-  	color: #a5afbd;
-
-}
-
 .social-media {
 	font-weight: bold;
 	font-size: 25px;
@@ -254,6 +257,22 @@ h5 {
 	margin-right: 5px;
 }
 
+@media (max-width: 768px) {
+	body, p {
+		font-size: 20px;
+	}
+	h1, h2 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	.about-me-para {
+		margin-bottom: 50px;
+	}
+
+
+}
 
 
 
