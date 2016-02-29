@@ -20,8 +20,9 @@ h1 {
 	font-weight: 400;
 	font-size: 45px;
 	text-align: center;
-	position: fixed;
 	margin-right: 15px;
+	position: fixed;
+	width: 50%;
 }
 
 h2 {
@@ -255,6 +256,14 @@ a, a:visited, a:active {
 	border: 1px solid #5c5c5c;
 	border-radius: 100%;
 	margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+	h1 {
+		width: auto;
+		left: 15px;
+		right: 15px; 
+	}
 }
 
 @media (max-width: 768px) {
