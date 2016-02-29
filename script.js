@@ -11,7 +11,7 @@ $(document).ready(function(){
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             	if( bottom_of_window > bottom_of_object ){
                 
-               	 $(this).delay(i*170).animate({'opacity':'1'},800);
+               	 $(this).delay(i*100).animate({'opacity':'1'},300);
                     
            		 };
         });

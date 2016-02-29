@@ -22,9 +22,18 @@ h1 {
 
 }
 
+#photo-id {
+	width: 200px;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
 #aboutMe {
 	font-family: "source-sans-pro";
-	margin-bottom: 150px;
+}
+
+.about-me-para {
+	margin-bottom: 100px;
 }
 
 p {
@@ -32,7 +41,6 @@ p {
 	font-size: 30px;
 	text-align: center;
 	color: #5c5c5c;
-	animation-name: sliding-vertically;
 }
 
 h2 {
@@ -199,8 +207,54 @@ h3 {
   transform: scaleY(1);
 }
 
-.vertical-align {
-    display: flex;
-    align-items: center;
+#naturelles {
+	background: url(naturelles-logo.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px;
 }
+
+#radiometer {
+	background: url(radiometer.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px;
+}
+
+.work:hover {
+	opacity: 0.1;
+}
+
+.work:hover .img-description {
+	visibility: visible;
+	opacity: 1;
+}
+
+.img-description {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 45px;
+  font-weight: 300;
+  color: #a5afbd;
+}
+
+h5 {
+	font-size: 60px;
+	font-weight: 400;
+  	color: #a5afbd;
+
+}
+
+.social-media {
+	font-weight: bold;
+	font-size: 25px;
+	color: #5c5c5c;
+	padding: 5px;
+	border: 1px solid #5c5c5c;
+	border-radius: 100%;
+	margin-right: 5px;
+}
+
+
+
+
 
